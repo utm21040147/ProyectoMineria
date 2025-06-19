@@ -1,4 +1,6 @@
 // Crear tablas y llamar las tablas
+// Isaac Reyes
+
 
 // Trae el esquema y el modelo
 import { Schema, model } from "mongoose";
