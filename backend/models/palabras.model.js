@@ -3,9 +3,10 @@
 // Trae el esquema y el modelo
 import { Schema, model } from "mongoose";
 
-// Estructura que manda a llamar la tabla
+// Estructura que manda a llamar la tabla - Constante
 const EsquemaPalabras = new Schema({
-    palabras:Sting    
+    name:String,
+    edad:Number,    
 })
 
 // Creacion de la tabla
